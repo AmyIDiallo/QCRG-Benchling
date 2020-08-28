@@ -1,7 +1,8 @@
 SELECT 
     a.id as "Protein",
-    count(distinct(b.id))  as "Plasmid",
-    count(distinct(c.id)) as "Validated strain",
+    count(distinct(case when b.expression_system = 'E' then b.id end)) as "E.coli Plasmid",
+    count(distinct(c.id)) as "Verified E.coli strain",
+    count(distinct(case when b.expression_system = 'H' then b.id end)) as "HEK Plasmid",
     count(distinct(d.file_registry_id$)) as "Nbr of prep",
     f.protein1_viral as "Viral protein",
     count(distinct(f.id)) as "Nbr complex prep",
@@ -20,6 +21,7 @@ left join (select id, tray from qcrg.beamtime) as g on e.crystal_plate_id = g.tr
 left join (select id, purified_protein_prep, purified_complex from qcrg.grid_cryoem) as h on d.id = h.purified_protein_prep or f.id = h.purified_complex
 left join (select id, grid from qcrg.cryoem_collection_requirefields3) as i on h.id = i.grid
 left join (select id, entity from qcrg.cryoem_collection_required) as j on h.id = j.entity 
-where b.expression_system ='E'
+where b.expression_system ='E' or b.expression_system ='H'
 group by a.id, f.protein1_viral
 order by count(distinct(g.id)) desc, count(distinct(e.id)) desc, coalesce(count(i.id),count(j.id)) desc, count(distinct(h.id)) desc, count(distinct(d.id)) desc, count(distinct(f.id)) desc, count(distinct(c.id)) desc
+   
