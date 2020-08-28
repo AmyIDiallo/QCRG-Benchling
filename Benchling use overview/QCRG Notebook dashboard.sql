@@ -10,4 +10,4 @@ LEFT JOIN project$raw d on d.id = a.source_id
 where d.name = 'QCRG' and (a.review_status = 'ACCEPTED' or a.review_status = 'NEEDS_REVIEW' or a.review_status is null)
 ORDER BY c.name ASC
 
-//View as a 'Bar chart' with 'X axis' = User, 'Y axis' = Count, 'Series' = Review Status
+/*View as a 'Bar chart' with 'X axis' = User, 'Y axis' = Count, 'Series' = Review Status*/
