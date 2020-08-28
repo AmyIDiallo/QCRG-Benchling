@@ -24,4 +24,3 @@ left join (select id, entity from qcrg.cryoem_collection_required) as j on h.id 
 where b.expression_system ='E' or b.expression_system ='H'
 group by a.id, f.protein1_viral
 order by count(distinct(g.id)) desc, count(distinct(e.id)) desc, coalesce(count(i.id),count(j.id)) desc, count(distinct(h.id)) desc, count(distinct(d.id)) desc, count(distinct(f.id)) desc, count(distinct(c.id)) desc
-   
