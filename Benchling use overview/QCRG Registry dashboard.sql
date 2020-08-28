@@ -9,3 +9,5 @@ left join qcrg.schema as c on c.id = a.schema_id
 left JOIN project$raw d on d.id = a.source_id
 where not c.name = 'HEK Pellet' and not c.name = 'Crystal'
 ORDER BY b.name ASC
+
+/*View as a 'Bar chart' with 'X axis' = User, 'Y axis' = Count, 'Series' =Register*/
