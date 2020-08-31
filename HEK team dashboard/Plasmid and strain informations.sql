@@ -1,6 +1,6 @@
 SELECT 
-    a.id as "Plasmid ID",
     a.expressed_protein as "Protein",
+    a.id as "Plasmid ID",
     b.id as "Strain ID",
     a.resistance as "Resistance",
     a.tag as "Tag",
