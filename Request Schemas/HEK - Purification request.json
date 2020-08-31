@@ -41,7 +41,7 @@
     ]
 }
 
-//Template settings
+#Template settings
 {
     "assignees": [
         "michellemoritz",
