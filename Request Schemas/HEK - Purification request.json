@@ -1,0 +1,59 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "Date Requested",
+            "name": "date_needed",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "[FULFILLER USE] Scheduled On",
+            "name": "scheduled_on",
+            "isRequired": false
+        },
+        {
+            "isMulti": true,
+            "type": "entity_link",
+            "displayName": "Protein names",
+            "name": "name",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Comments",
+            "name": "note",
+            "isRequired": false
+        }
+    ],
+    "idPrefix": "HEK-3Purification",
+    "taskSchemas": [],
+    "samplesSchema": [
+        {
+            "isMulti": false,
+            "isRequired": false,
+            "type": "entity_link",
+            "name": "Pellet Name"
+        }
+    ]
+}
+
+//Template settings
+{
+    "assignees": [
+        "michellemoritz",
+        "Tristan_Owens",
+        "Pourmal"
+    ],
+    "defaultProject": null,
+    "taskTemplates": {},
+    "fields": {
+        "note": null,
+        "date_needed": null,
+        "name": [],
+        "scheduled_on": null
+    }
+}
