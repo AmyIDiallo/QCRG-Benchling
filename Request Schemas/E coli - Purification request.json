@@ -1,0 +1,67 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "Date Requested",
+            "name": "date_needed",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "[FULFILLER USE] Scheduled On",
+            "name": "scheduled_on",
+            "isRequired": false
+        },
+        {
+            "isMulti": true,
+            "type": "entity_link",
+            "displayName": "Protein name",
+            "name": "name",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "E. coli strain",
+            "name": "strain",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Comments",
+            "name": "note",
+            "isRequired": false
+        }
+    ],
+    "idPrefix": "Purify_Ecoli",
+    "taskSchemas": [],
+    "samplesSchema": [
+        {
+            "isMulti": false,
+            "isRequired": false,
+            "type": "entity_link",
+            "name": "Sample ID"
+        }
+    ]
+}
+
+//Template setting
+{
+    "assignees": [
+        "Pourmal",
+        "Tristan_Owens",
+        "michellemoritz"
+    ],
+    "defaultProject": null,
+    "taskTemplates": {},
+    "fields": {
+        "note": null,
+        "strain": null,
+        "date_needed": null,
+        "name": [],
+        "scheduled_on": null
+    }
+}
