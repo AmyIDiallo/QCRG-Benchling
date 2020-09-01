@@ -1,0 +1,46 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Date",
+            "name": "date",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Screen",
+            "name": "screen",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Well",
+            "name": "well",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Condition",
+            "name": "cond",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Crystal form",
+            "name": "xtalform",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Crystal Image",
+            "name": "xtalimage",
+            "isRequired": false
+        }
+    ]
+}
