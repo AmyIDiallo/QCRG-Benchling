@@ -93,4 +93,22 @@
     ]
 }
 
-#
+#Template setting
+{
+    "assignees": [
+        "Meghna",
+        "amydiallo"
+    ],
+    "defaultProject": null,
+    "taskTemplates": {},
+    "fields": {
+        "scheduled_on": null,
+        "stop": null,
+        "comments": null,
+        "tag": [],
+        "plasmid": null,
+        "cleavage": null,
+        "protein": [],
+        "date_needed": null
+    }
+}
