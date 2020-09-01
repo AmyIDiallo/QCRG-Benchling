@@ -1,0 +1,96 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "Date Requested",
+            "name": "date_needed",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "[FULFILLER USE] Scheduled On",
+            "name": "scheduled_on",
+            "isRequired": false
+        },
+        {
+            "isMulti": true,
+            "type": "entity_link",
+            "displayName": "Protein",
+            "name": "protein",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Existing plasmid ?",
+            "name": "plasmid",
+            "isRequired": false
+        },
+        {
+            "dropdownId": "sfs_zK3pPOIl",
+            "displayName": "Tag needed",
+            "name": "tag",
+            "isMulti": true,
+            "isRequired": false,
+            "type": "dropdown",
+            "options": [
+                "EGFP",
+                "GST",
+                "His",
+                "MBP",
+                "Peptide C",
+                "SUMO",
+                "Twin-Strep"
+            ]
+        },
+        {
+            "dropdownId": "sfs_X1RiDAYz",
+            "displayName": "Cleavage site needed",
+            "name": "cleavage",
+            "isMulti": false,
+            "isRequired": false,
+            "type": "dropdown",
+            "options": [
+                "HRV 3C",
+                "None",
+                "SUMO",
+                "TEV",
+                "Thrombin"
+            ]
+        },
+        {
+            "dropdownId": "sfs_Yv1SLdLn",
+            "displayName": "Stop codon",
+            "name": "stop",
+            "isMulti": false,
+            "isRequired": false,
+            "type": "dropdown",
+            "options": [
+                "Maybe",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Comments",
+            "name": "comments",
+            "isRequired": false
+        }
+    ],
+    "idPrefix": "Ecoli_Clone",
+    "taskSchemas": [],
+    "samplesSchema": [
+        {
+            "isMulti": false,
+            "isRequired": false,
+            "type": "entity_link",
+            "name": "Sample ID"
+        }
+    ]
+}
+
+#
