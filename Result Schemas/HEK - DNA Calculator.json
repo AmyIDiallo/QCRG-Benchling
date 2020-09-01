@@ -1,0 +1,53 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Entity",
+            "name": "entity",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Protein Name",
+            "name": "protein_name",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Concentration (ng/µL)",
+            "name": "concentration",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "µg needed",
+            "name": "g_needed",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Initial Vol (µL)",
+            "name": "initial_vol_l",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "µL to add",
+            "name": "l_to_add",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "µL remaining",
+            "name": "l_remaining",
+            "isRequired": false
+        }
+    ]
+}
