@@ -1,0 +1,38 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Host protein",
+            "name": "strainhost",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Viral protein",
+            "name": "strainviral",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Gel",
+            "name": "gel",
+            "isRequired": true
+        },
+        {
+            "dropdownId": "sfs_Yv1SLdLn",
+            "displayName": "Interaction validation",
+            "name": "interaction",
+            "isMulti": false,
+            "isRequired": true,
+            "type": "dropdown",
+            "options": [
+                "Maybe",
+                "No",
+                "Yes"
+            ]
+        }
+    ]
+}
