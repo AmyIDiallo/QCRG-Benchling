@@ -1,0 +1,25 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Dilution",
+            "name": "a",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Colonies",
+            "name": "number",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Transformation efficiency",
+            "name": "text",
+            "isRequired": false
+        }
+    ]
+}
