@@ -1,0 +1,25 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Purified Protein",
+            "name": "purified_protein",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Buffer",
+            "name": "buffer",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Concentration",
+            "name": "concentration",
+            "isRequired": true
+        }
+    ]
+}
