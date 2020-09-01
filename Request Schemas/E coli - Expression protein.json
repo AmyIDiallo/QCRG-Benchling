@@ -1,0 +1,66 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "Date Requested",
+            "name": "date_needed",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "[FULFILLER USE] Scheduled On",
+            "name": "scheduled_on",
+            "isRequired": false
+        },
+        {
+            "isMulti": true,
+            "type": "entity_link",
+            "displayName": "Protein",
+            "name": "protein",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Plasmid ID",
+            "name": "plasmid",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Comments",
+            "name": "comments",
+            "isRequired": false
+        }
+    ],
+    "idPrefix": "EcoliExpression",
+    "taskSchemas": [],
+    "samplesSchema": [
+        {
+            "isMulti": false,
+            "isRequired": false,
+            "type": "entity_link",
+            "name": "Sample ID"
+        }
+    ]
+}
+
+#Template settings
+{
+    "assignees": [
+        "amydiallo",
+        "Meghna"
+    ],
+    "defaultProject": null,
+    "taskTemplates": {},
+    "fields": {
+        "protein": [],
+        "date_needed": null,
+        "plasmid": null,
+        "scheduled_on": null,
+        "comments": null
+    }
+}
