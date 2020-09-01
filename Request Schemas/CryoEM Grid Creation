@@ -1,0 +1,35 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "Date Requested",
+            "name": "date_needed",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "[FULFILLER USE] Scheduled On",
+            "name": "scheduled_on",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Notes from purification team",
+            "name": "notes",
+            "isRequired": false
+        }
+    ],
+    "idPrefix": "GRID-UCSF",
+    "taskSchemas": [],
+    "samplesSchema": [
+        {
+            "isMulti": false,
+            "isRequired": false,
+            "type": "entity_link",
+            "name": "Purified Protein"
+        }
+    ]
+}
