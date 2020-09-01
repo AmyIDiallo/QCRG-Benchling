@@ -1,0 +1,31 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Sample ID",
+            "name": "strain",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Gel",
+            "name": "gel",
+            "isRequired": false
+        },
+        {
+            "dropdownId": "sfs_Yv1SLdLn",
+            "displayName": "Soluble",
+            "name": "purification_worked",
+            "isMulti": false,
+            "isRequired": false,
+            "type": "dropdown",
+            "options": [
+                "Maybe",
+                "No",
+                "Yes"
+            ]
+        }
+    ]
+}
