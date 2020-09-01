@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "SampleID",
+            "name": "benchlingname",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Name Protein tested",
+            "name": "protein",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Molecular weight",
+            "name": "mw",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Molecular weight 2",
+            "name": "mw2",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Molecular weight 3",
+            "name": "mw3",
+            "isRequired": false
+        }
+    ]
+}
