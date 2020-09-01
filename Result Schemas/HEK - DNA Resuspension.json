@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Lyophilized DNA",
+            "name": "lyophilized_dna",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Expressed Protein",
+            "name": "expressed_protein",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "float",
+            "displayName": "Initial Yield (ng)",
+            "name": "initial_yield_ng",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Water to 10 ng/µL",
+            "name": "water_to_10_ngl",
+            "isRequired": false
+        }
+    ]
+}
