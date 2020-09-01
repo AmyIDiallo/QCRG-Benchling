@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "E.coli ID",
+            "name": "entity",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Temperature",
+            "name": "temperature",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Expression time",
+            "name": "time",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "IPTG mM",
+            "name": "concentration",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Resistance",
+            "name": "resistance",
+            "isRequired": true
+        }
+    ]
+}
