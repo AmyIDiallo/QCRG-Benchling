@@ -1,0 +1,24 @@
+{
+    "fields": [
+        {
+            "dropdownId": "sfs_Yv1SLdLn",
+            "displayName": "Did you make a dragonfly screen?",
+            "name": "dragon",
+            "isMulti": false,
+            "isRequired": true,
+            "type": "dropdown",
+            "options": [
+                "Maybe",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Dragonfly PDF",
+            "name": "wbresult",
+            "isRequired": false
+        }
+    ]
+}
