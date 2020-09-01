@@ -1,0 +1,41 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Ecoli strain",
+            "name": "sample",
+            "isRequired": false
+        },
+        {
+            "dropdownId": "sfs_OKubjIux",
+            "displayName": "Purification Method",
+            "name": "purification_method",
+            "isMulti": false,
+            "isRequired": true,
+            "type": "dropdown",
+            "options": [
+                "Superdex 200 HiLoad 16/600 PG",
+                "Superdex 200 Increase",
+                "Superdex 200 Increase 10/300 GL",
+                "Superdex 75 HiLoad 16/600  PG",
+                "Superdex 75 Increase 10/300 GL",
+                "Superose 6 Increase 10/300 GL"
+            ]
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Gel Filtration",
+            "name": "gf",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Gel",
+            "name": "gel",
+            "isRequired": true
+        }
+    ]
+}
