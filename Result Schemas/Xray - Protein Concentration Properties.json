@@ -1,0 +1,59 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Protein name",
+            "name": "pname",
+            "isRequired": true
+        },
+        {
+            "dropdownId": "sfs_Yv1SLdLn",
+            "displayName": "Did you concentrate the protein?",
+            "name": "protconc",
+            "isMulti": false,
+            "isRequired": true,
+            "type": "dropdown",
+            "options": [
+                "Maybe",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Which MWCO filter did you use (enter in kDa)",
+            "name": "filt",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Concentration by A280nm (mg/mL)",
+            "name": "concent",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Concentration by A280nm (mg/mL) - If more than one",
+            "name": "concen",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Buffer",
+            "name": "buff",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Where did you store the remaining smaple?",
+            "name": "samp_store",
+            "isRequired": true
+        }
+    ]
+}
