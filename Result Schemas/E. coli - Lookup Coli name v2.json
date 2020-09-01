@@ -1,0 +1,25 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "SampleID",
+            "name": "benchlingname",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Name Protein Expressed",
+            "name": "protein",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Plasmidprep ID",
+            "name": "benchlingnameminiprep",
+            "isRequired": true
+        }
+    ]
+}
