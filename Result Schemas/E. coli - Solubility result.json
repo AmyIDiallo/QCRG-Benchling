@@ -1,0 +1,45 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Sample ID",
+            "name": "strain",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Sample used",
+            "name": "sample",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Gel",
+            "name": "gel",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Westernblot",
+            "name": "wbresult",
+            "isRequired": false
+        },
+        {
+            "dropdownId": "sfs_Yv1SLdLn",
+            "displayName": "Soluble",
+            "name": "soluble",
+            "isMulti": false,
+            "isRequired": true,
+            "type": "dropdown",
+            "options": [
+                "Maybe",
+                "No",
+                "Yes"
+            ]
+        }
+    ]
+}
