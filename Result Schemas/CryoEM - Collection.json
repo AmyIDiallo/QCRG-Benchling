@@ -1,0 +1,46 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Protein Sample",
+            "name": "protein_sample",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Assay Score (0-5)",
+            "name": "assay_score_0_5",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "url for EM Results",
+            "name": "url_for_em_results",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Atlas",
+            "name": "atlas",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "View",
+            "name": "view",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Record",
+            "name": "record",
+            "isRequired": false
+        }
+    ]
+}
