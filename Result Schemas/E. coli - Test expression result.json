@@ -1,0 +1,38 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Protein ID",
+            "name": "strain",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Gel",
+            "name": "gel",
+            "isRequired": true
+        },
+        {
+            "dropdownId": "sfs_Yv1SLdLn",
+            "displayName": "WB needed",
+            "name": "wb",
+            "isMulti": false,
+            "isRequired": true,
+            "type": "dropdown",
+            "options": [
+                "Maybe",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Westernblot",
+            "name": "wbresult",
+            "isRequired": false
+        }
+    ]
+}
