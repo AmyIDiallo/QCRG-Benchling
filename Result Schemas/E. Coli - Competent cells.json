@@ -1,0 +1,18 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Strain",
+            "name": "strain",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Amount of tubes",
+            "name": "number",
+            "isRequired": true
+        }
+    ]
+}
