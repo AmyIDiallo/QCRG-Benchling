@@ -1,0 +1,35 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "Date Requested",
+            "name": "date_needed",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Notes",
+            "name": "notes",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "date",
+            "displayName": "[FULFILLER USE] Scheduled On",
+            "name": "scheduled_on",
+            "isRequired": false
+        }
+    ],
+    "idPrefix": "Collection-UCSF",
+    "taskSchemas": [],
+    "samplesSchema": [
+        {
+            "isMulti": false,
+            "isRequired": false,
+            "type": "entity_link",
+            "name": "CryoEM Grid"
+        }
+    ]
+}
