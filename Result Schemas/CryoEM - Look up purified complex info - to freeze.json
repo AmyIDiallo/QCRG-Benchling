@@ -1,0 +1,25 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Purified Complex",
+            "name": "purified_complex",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Complex Buffer",
+            "name": "complex_buffer",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Complex Concentration",
+            "name": "complex_concentration",
+            "isRequired": true
+        }
+    ]
+}
