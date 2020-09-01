@@ -1,0 +1,74 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Date",
+            "name": "date",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Protein name",
+            "name": "name",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Protein Concentratin (mg/mL)",
+            "name": "conc",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Temperature",
+            "name": "temp",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Screen Name",
+            "name": "screen",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Drop Size (uL, protein/reservoir)",
+            "name": "drop",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Plate type",
+            "name": "platet",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Barcode (rockimager)",
+            "name": "barcode",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Your name",
+            "name": "nameyou",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Notes/comments",
+            "name": "notes",
+            "isRequired": true
+        }
+    ]
+}
