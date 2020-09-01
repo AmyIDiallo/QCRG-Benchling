@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "FSEC ID",
+            "name": "fsec_id",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Chromatograph",
+            "name": "graph",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Sypro Gel",
+            "name": "gel1",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "GFP Gel",
+            "name": "gel2",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Westernblot",
+            "name": "wbresult",
+            "isRequired": false
+        }
+    ]
+}
