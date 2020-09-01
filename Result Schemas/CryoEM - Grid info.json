@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "EM grid",
+            "name": "em_grid",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Grid Type",
+            "name": "gridtype",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Blot force",
+            "name": "force",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Blot time",
+            "name": "time",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Concentration",
+            "name": "concentration",
+            "isRequired": true
+        }
+    ]
+}
