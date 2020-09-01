@@ -1,0 +1,67 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Entity",
+            "name": "entity",
+            "isRequired": false
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Atlas",
+            "name": "atlas",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Atlas (notes)",
+            "name": "atlas_notes",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "View",
+            "name": "view",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "blob_link",
+            "displayName": "Record",
+            "name": "record",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Particle (notes)",
+            "name": "particle_notes",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Raw micrograph directory",
+            "name": "tif_directory",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Aligned micrograph directory",
+            "name": "mrc_directory",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Processing googledoc link",
+            "name": "googledoc",
+            "isRequired": true
+        }
+    ]
+}
