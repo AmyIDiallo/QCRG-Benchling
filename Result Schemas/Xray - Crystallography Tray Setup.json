@@ -1,0 +1,45 @@
+{
+    "fields": [
+        {
+            "isMulti": false,
+            "type": "entity_link",
+            "displayName": "Protein ID",
+            "name": "protein",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Molecular weight",
+            "name": "mw",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Extinction coefficient",
+            "name": "e",
+            "isRequired": true
+        },
+        {
+            "isMulti": false,
+            "type": "text",
+            "displayName": "Isoelectric point",
+            "name": "pi",
+            "isRequired": true
+        },
+        {
+            "dropdownId": "sfs_Yv1SLdLn",
+            "displayName": "Previously crystallized?",
+            "name": "previously_crystallized",
+            "isMulti": false,
+            "isRequired": true,
+            "type": "dropdown",
+            "options": [
+                "Maybe",
+                "No",
+                "Yes"
+            ]
+        }
+    ]
+}
